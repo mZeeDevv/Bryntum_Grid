@@ -1,0 +1,24 @@
+@import "./node_modules/@bryntum/grid/grid.classic-light.css";  
+@import "./node_modules/@bryntum/grid/grid.stockholm.css";  
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('./bg.jpg');
+}
+#app {
+  margin         : 10px 10px 50px 10px;
+  display        : flex;
+  flex-direction : column;
+  height         : 100vh;
+  font-size      : 14px;
+  border-radius: 10px;
+  
+}
+h1 {
+  color: #ffffff;
+  background-color: #006adf;
+  padding: 10px 4px;
+}
